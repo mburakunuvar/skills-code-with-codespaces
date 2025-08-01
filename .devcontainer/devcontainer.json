@@ -4,6 +4,7 @@
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -12,5 +13,4 @@
       ]
     }
   }
-  "postCreateCommand": "bash .devcontainer/postCreate.sh"
 }
